@@ -26,7 +26,7 @@ function NavbarUsage() {
           <IconButton
             data-fs-navbar-button-menu
             aria-label="Open Menu"
-            icon={<Icon name="List" width={30} height={30} />}
+            icon={<Icon name="fs-list" size={20} />}
             onClick={openNavbar}
           />
           <Label
@@ -49,7 +49,7 @@ function NavbarUsage() {
               <LinkButton
                 href="#"
                 variant="tertiary"
-                icon={<Icon name="User" width={18} height={18} weight="bold" />}
+                icon={<Icon name="fs-user" size={20} />}
               >
                 Login
               </LinkButton>
@@ -57,15 +57,13 @@ function NavbarUsage() {
               <IconButton
                 data-fs-cart-toggle
                 aria-label="cart"
-                icon={<Icon name="ShoppingCart" width={32} height={32} />}
+                icon={<Icon name="fs-shopping-cart" size={20} />}
               />
             </div>
           </NavbarButtons>
         </NavbarRow>
       </NavbarHeader>
-
       <NavbarLinksUsage classes="hidden-mobile" />
-
       {displayNavbar && <NavbarSliderUsage />}
     </Navbar>
   )

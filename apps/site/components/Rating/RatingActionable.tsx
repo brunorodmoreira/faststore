@@ -8,9 +8,7 @@ export type RatingActionableProps = {
 const RatingActionable = (props: RatingActionableProps) => {
   const [rating, setRating] = useState(props.value)
 
-  return (
-    <Rating value={rating} icon={<Icon name="Star" />} onChange={setRating} />
-  )
+  return (<Rating value={rating} icon={<Icon name="fs-star" />} onChange={setRating} />);
 }
 
 export default RatingActionable

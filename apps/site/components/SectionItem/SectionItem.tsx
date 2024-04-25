@@ -43,7 +43,7 @@ const SectionItem = ({
             size="small"
             variant="tertiary"
             href={actionPath}
-            icon={<Icon name="ArrowRight" />}
+            icon={<Icon name="fs-arrow-right" />}
             iconPosition="right"
           >
             See more

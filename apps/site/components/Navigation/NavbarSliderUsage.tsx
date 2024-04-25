@@ -26,7 +26,7 @@ export const NavbarSlider = () => {
         <IconButton
           onClick={fadeOut}
           aria-label="Logo"
-          icon={<Icon name="Storefront" width={32} height={32} />}
+          icon={<Icon name="fs-storefront" size={20} />}
         />
       </UINavbarSliderHeader>
       <UINavbarSliderContent>
@@ -46,7 +46,7 @@ const NavbarSliderUsage = () => {
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <IconButton
         aria-label="Open Menu"
-        icon={<Icon name="List" width={32} height={32} />}
+        icon={<Icon name="fs-list" size={20} />}
         onClick={openNavbar}
       />
       <p style={{ marginLeft: '12px' }}>Open Menu</p>
